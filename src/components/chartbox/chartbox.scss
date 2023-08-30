@@ -32,7 +32,17 @@
         .texts{
             display: flex;
             flex-direction: column;
-            text-align: right;;
+            text-align: right;
+
+
+            .percentage{
+                font-weight: bold;
+                font-size: 20px;
+            }
+            .duration{
+                font-size: 14px;
+                
+            }
         }
 
     }
