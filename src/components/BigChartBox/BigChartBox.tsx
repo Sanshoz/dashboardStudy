@@ -1,5 +1,5 @@
 import './bigChartBox.scss'
-import {ResponsiveContainer, AreaChart, Area, CartesianGrid, XAxis, YAxis, Tooltip} from 'recharts'
+import {ResponsiveContainer, AreaChart, Area, XAxis, YAxis, Tooltip} from 'recharts'
 
 const data = [
     {
