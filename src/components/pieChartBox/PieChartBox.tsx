@@ -2,12 +2,6 @@ import {ResponsiveContainer, PieChart, Pie, Cell, Tooltip }from 'recharts'
 import './pieChartBox.scss'
 
 
-type Props = {
-    title: string;
-    chartData: object[];
-    color: string;
-
-}
 
 const data = [
     { name: 'Mobile', value: 400,color: "#0088FE" },
