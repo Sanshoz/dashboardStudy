@@ -1,5 +1,5 @@
 @import "../../styles/variables.scss";
-
+@import "../../styles/responsives.scss";
 
 .menu{
     .item{
@@ -12,6 +12,10 @@
         font-size: 12px;
         font-weight: 200;
         color: $soft-color;
+        
+        @include lg{
+            display: none;
+        }
     }
     .listItem{
         display: flex;
@@ -21,6 +25,12 @@
 
         &:hover{
             background-color: $soft-bg;
+        }
+
+        .listItemTitle{
+            @include lg{
+                display: none;
+            }
         }
         }
 }
